@@ -17,3 +17,7 @@
     </button>
   
 </form>
+
+@for(email of emailvett; track email){
+  <app-sent-email [email] = "email"></app-sent-email>
+}
